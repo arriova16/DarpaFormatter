@@ -10,9 +10,9 @@
 % going through threshold, hybrid, and block. Format and get ready for
 % processing
 
-tld = 'C:\Users\Somlab\Box\BensmaiaLab\ProjectFolders\DARPA\Data\RawData';
-outdir = 'B:\ProjectFolders\DARPA\Data\ProcessedData';
-
+tld = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Data\RawData';
+outdir = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Data\ProcessedData';
+0.
 folder_path = dir(tld);
 monkey_list = folder_path(3:end);
 
