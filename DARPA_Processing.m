@@ -2,9 +2,9 @@
 % tld = 'B:\ProjectFolders\DARPA\Data\ProcessedData';
 % outdir = 'B:\ProjectFolders\DARPA\Data\FinalData';
 % figure_path = 'B:\ProjectFolders\DARPA\Figures';
-tld = 'B:\ProjectFolders\DARPA\Data\ProcessedData';
-outdir = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Figures';
-figure_path = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Figures';
+tld = 'Z:\UserFolders\ToriArriola\DARPA_updated\PreProcessedData';
+% outdir = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Figures';
+% figure_path = 'C:\Users\arrio\Box\BensmaiaLab\ProjectFolders\DARPA\Figures';
 
 task_type = {'Block', 'Hybrid'};
 data = struct(); ii = 1;
