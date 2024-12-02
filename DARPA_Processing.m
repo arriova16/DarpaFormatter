@@ -12,7 +12,7 @@ data = struct(); ii = 1;
  monkey_list = dir(tld); monkey_list = monkey_list(3:end);
  for m = 1:length(monkey_list)
      for t = 1:length(task_type)
-         dir_str = fullfile(tld, monkey_list(m).name, ['*', task_type{t}, 'Task*combtable.mat']);
+         dir_str = fullfile(tld, monkey_list(m).name, 'DarpaOG', ['*', task_type{t}, 'Task*combtable.mat']);
          flist = dir(dir_str); % Get list of full tables of task type in folder
          for f = 1:length(flist) % Go through each file and data and parameters
              % Monkey name
