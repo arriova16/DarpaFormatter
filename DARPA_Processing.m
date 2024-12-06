@@ -133,7 +133,8 @@ for d = 1:length(cat_data)
 end
 
 %% Bootstrap testing
-num_permutations = 1e4;
+% num_permutations = 1e4;
+num_permutations = 10;
 [wb, pfwb_update]  = ParforWaitbar('Bootstrap testing', length(cat_data));
 parfor d = 1:length(cat_data)
     % Find list of no stim conditions
