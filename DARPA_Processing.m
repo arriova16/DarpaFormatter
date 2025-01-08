@@ -88,7 +88,7 @@ for d = 1:length(cat_data)
         % Get unique indentor amplitudes
         uia = unique(cat_data(d).ResponseTable.IndentorAmp(idx));
         pdetected = zeros(size(uia));
-        for a = 1:length(uia)
+        for a = 1:length(uia);
             p1u_idx = idx & cat_data(d).ResponseTable.IndentorAmp == uia(a);
             pdetected(a) = sum(strcmp(cat_data(d).ResponseTable.Response(p1u_idx), 'correct')) / sum(p1u_idx);
             if uia(a) == 0
